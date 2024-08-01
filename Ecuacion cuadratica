@@ -2,6 +2,7 @@ import math
 print('Ecuacion cuadratica para julian y santiago')
 print('                  PUTOS                   ')
 print('                                          ')
+print('      Me dejaron solo en el trabajo       ')
 
 a = int(input("Meteme el valor de a:"))
 b = int(input("Penetra el valor de b:"))
