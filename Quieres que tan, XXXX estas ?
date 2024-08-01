@@ -1,0 +1,17 @@
+import random
+import re
+
+estado_de_animo = input("Dime tu estado de ánimo, con el formato 'Estoy XXXXX' sin importar mayúsculas o minúsculas:\n")
+
+def encontrar_estado_de_animo(estado):
+    patron_animo = re.compile(r'Estoy\s+(\w+)', re.IGNORECASE)
+    animo_encontrado = re.findall(patron_animo, estado)
+    return animo_encontrado
+
+animos = encontrar_estado_de_animo(estado_de_animo)
+nivel_de_animo = random.randint(1, 10)
+
+if animos:
+    print(f"Predigo que tan '{animos[0]}' estás en un nivel {nivel_de_animo} de 10.")
+else:
+    print("No he podido identificar tu estado de ánimo.")
