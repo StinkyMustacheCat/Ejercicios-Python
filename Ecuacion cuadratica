@@ -1,0 +1,18 @@
+import math
+print('Ecuacion cuadratica para julian y santiago')
+print('                  PUTOS                   ')
+print('                                          ')
+
+a = int(input("Meteme el valor de a:"))
+b = int(input("Penetra el valor de b:"))
+c = int(input("Lameme el valor de c:"))
+
+x = b**2-4*a*c
+
+if x < 0:
+ print('Chales no hay, es imaginario, como el amor de ella')
+else:
+    x_positivo = (-b+math.sqrt(x))/2*a
+    x_negativo = (-b-math.sqrt(x))/2*a
+    print('x1=',x_positivo)
+    print('x2=',x_negativo)
