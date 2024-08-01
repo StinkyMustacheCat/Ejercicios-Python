@@ -1,0 +1,13 @@
+print (holis, ecuacion para determinar el vertice OwO)
+print (                                              )
+print ("*-*  *-*  *-*  *-*  *-*  *-*  *-*  *-*  *-* ")
+
+a = int(input('Favor indique variable a: '))
+b = int(input('Favor indique variable b: '))
+c = int(input('Favor indique variable c: '))
+
+
+x = -b / (2*a)
+y = (a*(x**2)+b*x+c)
+
+print(f'El eje x del vertice de la parabola es  {x} y el y es {y}')
