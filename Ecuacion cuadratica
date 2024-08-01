@@ -14,5 +14,5 @@ if x < 0:
 else:
     x_positivo = (-b+math.sqrt(x))/2*a
     x_negativo = (-b-math.sqrt(x))/2*a
-    print('x1=',x_positivo)
-    print('x2=',x_negativo)
+    print('operacion positiva =',x_positivo)
+    print('operacion negativa =',x_negativo)
